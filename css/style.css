@@ -1,0 +1,48 @@
+section {
+    padding-top: 5rem;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+    color: #40d2ff;
+    transition: ease-in 0.2s;
+} 
+
+.mode__toggle {
+    border: 1px solid #40d2ff;
+    color: #40d2ff;
+}
+
+.mode__toggle:hover {
+    background-color: #40d2ff;
+    color: #2c2c2c;
+}
+
+h2, span, strong {
+    color: #40d2ff;
+}
+
+.social__media {
+    text-decoration: none;
+    color: #e2edff;
+}
+
+.social__media:hover svg {
+    transform: scale(1.2);
+    color: #40d2ff;
+    transition: ease-in 0.2s;
+}
+
+.card:hover {
+    transition: ease-in 0.2s;
+    box-shadow: 0 0 5px 5px #40d2ff;
+}
+
+.card img:hover {
+    filter: blur(3px);
+    transition: filter 0.5s ease;
+}
+
+.card-link {
+    text-decoration: none;
+}
